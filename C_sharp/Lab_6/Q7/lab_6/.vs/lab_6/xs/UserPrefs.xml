@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{929F1159-50CB-4F77-A5F0-D0D1A345878A}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="lab_6/arrayCalculator.cs">
+    <Files>
+      <File FileName="lab_6/Program.cs" Line="16" Column="39" />
+      <File FileName="lab_6/arrayCalculator.cs" Line="57" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="lab_6" expanded="True">
+            <Node name="lab_6">
+              <Node name="arrayCalculator.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.lab__6 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
