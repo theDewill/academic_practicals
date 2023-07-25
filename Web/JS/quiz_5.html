@@ -8,17 +8,17 @@
 <body>
     <p>Table Border Change</p>
     <table id="table">
-        <tr id="row">
+        <tr id="row-h">
             <th id="dt">heading1</th>
             <th id="dt">heading2</th>
         </tr>
 
-        <tr id="row">
+        <tr id="row-d1">
             <td id="dt">row1cell1</td>
             <td id="dt">row1cell2</td>
         </tr>
 
-        <tr id="row">
+        <tr id="row-d2">
             <td id="dt">row2cell1</td>
             <td id="dt">row2cell2</td>
         </tr>
@@ -31,6 +31,9 @@
     <script>
 
         const table = document.getElementById('table');
+        const rowp = document.getElementById('row-h');
+        const row1 = document.getElementById('row-d1');
+        const row2 = document.getElementById('row-d2');
         
 
         const dec = ['2px solid black','3px solid red','4px solid blue','5px solid orange'];
@@ -38,10 +41,15 @@
         document.getElementById('btn').addEventListener('click', () => {
             const table = document.getElementById('table');
             table.style.border = dec[cnt];
-            Array.from(table.children).forEach(row => {
-                Array.from(row.children).forEach(col => {
-                col.style.border = dec[cnt];
+            
+            Array.from(rowp.children).forEach(ele => {
+                ele.style.border = dec[cnt];
             });
+            Array.from(row1.children).forEach(ele => {
+                ele.style.border = dec[cnt];
+            });
+            Array.from(row2.children).forEach(ele => {
+                ele.style.border = dec[cnt];
             });
             cnt--;
         });
